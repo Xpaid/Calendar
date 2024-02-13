@@ -1,0 +1,70 @@
+body {
+    background-color: #130f0f;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    background: transparent;
+}
+
+* {
+    color: #979797;
+    font-family: sans-serif;
+}
+
+#year {
+    font-size: 75px;
+    color: #c8c8c8;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.maincontainer {
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.container {
+    width: 430px;
+    height: 430px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 100px;
+    background-color: rgba(30, 30, 30, 0.8);
+
+    .month {
+        margin-left: 50px;
+    }
+
+    .table {
+        width: 85%;
+        height: 80%;
+        margin: auto;
+    }
+
+    th {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    .sun {
+        color: #ff5050;
+        font-weight: bold;
+    }
+}
+
+footer {
+    hr {
+        opacity: .3;
+    }
+
+    font-size: 11px;
+    text-align: center;
+}
