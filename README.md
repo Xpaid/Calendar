@@ -1,2 +1,2 @@
 # Calendar
-A Calendar made using HTML
+A Calendar made using HTML & CSS
